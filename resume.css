@@ -1,0 +1,105 @@
+body{
+margin:0;
+background-image:url('lights-1282268_1920.jpg');
+}
+header{
+
+width:960px;
+height:250px;
+margin:auto;
+margin-top:20px;
+background-image:url('images.jpg');
+background-repeat:no-repeat;
+background-size:960px 250px;
+background-color:white;
+}
+h1{
+color:#000;
+text-align:center;
+padding-bottom:10px;
+	
+font-family:sans-seriff;
+}
+header img{
+height:100px;
+width:100px;
+
+margin-left:400px;
+border-radius:5px;
+}
+div#aboutme{
+width:960px;
+height:300px;
+margin:auto;
+
+background-image:url('images.jpg');
+background-repeat:no-repeat;
+background-size:960px 300px;
+background-color:white;
+}
+div#skills{
+width:960px;
+height:320px;
+margin:auto;
+margin-top:20px;
+background-image:url('images.jpg');
+background-repeat:no-repeat;
+background-size:960px 320px;
+background-color:white;
+margin-bottom:20px;	
+}
+div#contact{
+width:960px;
+height:200px;
+margin:auto;
+margin-top:20px;
+background-image:url('images.jpg');
+background-repeat:no-repeat;
+background-size:960px 320px;
+background-color:white;
+margin-bottom:20px;	
+}
+#aboutme h2{
+text-align:center;
+padding-bottom:10px;
+	
+font-family:sans-seriff;
+color:#000;
+}
+#aboutme ul{
+margin-left:100px;
+padding-bottom:20px;
+font-size:18px;
+list-style:none;
+font-family:sans-seriff;
+color:#000;
+}
+#skills h2{
+text-align:center;
+padding-bottom:10px;
+font-family:sans-seriff;
+color:#000;
+}
+#skills ul{
+margin-left:100px;
+padding-bottom:20px;
+font-size:18px;
+list-style:none;
+font-family:sans-seriff;
+color:#000;
+}
+#contact h2{
+text-align:center;
+padding-bottom:10px;
+	
+font-family:sans-seriff;
+color:#000;
+}
+#contact ul{
+margin-left:100px;
+padding-bottom:20px;
+font-size:18px;
+list-style:none;
+font-family:sans-seriff;
+color:#000;
+}

@@ -1,0 +1,73 @@
+<html>
+	<head>
+		<title>MyResume</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="resume.css">
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+		
+		</head>
+	<body>
+		<header class="well">
+			<h1>MOHAMMED AFWAN</h1>
+			<img src="pic.jpeg">
+		</header>
+		<div id="aboutme" class="well">
+			<h2>ABOUT ME</h2>
+			<ul>
+			<li>Completed B.E(CSE) in 2016</li>
+			<li>Fun loving</li>
+			<li>friendly</li>
+			<li>I like listening to music</li>
+			<li>Love UI development:well thats the reason for building this portfolio</li>
+			<li>Love Bengaluru</li>
+			<li>Love Biryani</li>
+			</ul>
+		</div>
+		<div id="skills" class="well">
+			<h2>TECHNICAL SKILLS</h2>
+			<ul>
+			<li>C</li>
+			<li>JAVA</li>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>JAVASCRIPT</li>
+			<li>JQUERY</li>
+			<li>SQL</li>
+			<li>PHP</li>
+			</ul>
+		</div>
+		<div id="contact" class="well">
+			<h2>CONTACT ME</h2>
+			<ul>
+			<li><img style="width:20px;height:20px;" src="gmail.png"> afwancse12@gmail.com</li>
+			<li><img style="width:20px;height:20px;" src="git_logo.png"> www.github.com/afwancse16</li>
+			</ul>
+		</div>
+		<footer>
+			<p style="color:white;text-align:center">Posted by: Mohammed Afwan</p>
+		</footer>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("header").click(function(){
+					$("header").hide();
+				});
+				$("#aboutme").click(function(){
+					$("#aboutme").hide();
+				});
+				$("#skills").click(function(){
+					$("#skills").hide();
+				});	
+				$("#contact").click(function(){
+					$("#contact").hide();
+				});
+				
+			});
+		</script>
+	</body>
+</html>
